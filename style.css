@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+html {
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+main {
+  width: min(80%, 540px);
+  margin: auto;
+  margin-top: 100px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.box1 {
+  padding: 25px;
+  background-color: white;
+  border-radius: 0.3125em 0.3125em 0 0;
+}
+
+.box2 {
+  padding: 25px;
+  background-color: hsl(179deg, 62%, 43%);
+}
+
+.box3 {
+  padding: 25px;
+  background-color: hsl(179deg, 62%, 43%);
+  opacity: 0.9;
+  border-radius: 0 0 0.3125em 0.3125em;
+}
+
+.btn {
+  font-size: 1.15rem;
+  background-color: hsl(71deg, 73%, 54%);
+  text-align: center;
+  height: 2.7em;
+  width: min(100%, 236px);
+  border-radius: 0.625em;
+  box-shadow: 0px 2px 3px 0px black;
+}
+
+.explanation {
+  color: hsl(218deg, 22%, 67%);
+  margin-bottom: 20px;
+  line-height: 20px;
+  max-width: 450px;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.-brightYellow {
+  color: hsl(71deg, 73%, 54%);
+}
+
+.-cyan {
+  color: hsl(179deg, 62%, 43%);
+}
+
+.-greyBlue {
+  color: hsl(218deg, 22%, 67%);
+}
+
+.-largerFont {
+  font-size: 2.5rem;
+}
+
+.-line_height_20px {
+  line-height: 20px;
+}
+
+.-line_height_40px {
+  line-height: 40px;
+}
+
+.-lightGrey {
+  color: hsl(204deg, 43%, 93%);
+}
+
+.-margin-bottom_10px {
+  margin-bottom: 10px;
+}
+
+.-margin-bottom_20px {
+  margin-bottom: 20px;
+}
+
+.-margin-top_10px {
+  margin-top: 10px;
+}
+
+.-medium_font {
+  font-size: 1.3rem;
+}
+
+.-opacityHalf {
+  opacity: 0.5;
+}
+
+.-thick_font {
+  font-weight: 700;
+}
+
+.-thin_font {
+  font-weight: 200;
+}
+
+.-white {
+  color: white;
+}
+
+@media only screen and (min-width: 630px) {
+  .box2 {
+    border-radius: 0 0 0 0.3125em;
+    width: min(100%, 270px);
+  }
+  .box3 {
+    border-radius: 0 0 0.3125em 0;
+    width: min(100%, 270px);
+  }
+  .flexBox {
+    display: flex;
+  }
+}/*# sourceMappingURL=style.css.map */
